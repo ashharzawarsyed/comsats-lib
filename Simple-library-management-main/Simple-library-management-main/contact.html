@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | DEVREV's Library Management</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        body {
+            background-color: #f5f8ff;
+            font-family: 'Poppins', sans-serif;
+        }
+        .contact-container {
+            width: 90%;
+            margin: 2em auto;
+        }
+        .contact-container h2 {
+            color: #110f29;
+            text-align: center;
+            margin-bottom: 1em;
+        }
+        .contact-form {
+            background-color: #ffffff;
+            padding: 2em;
+            border-radius: 5px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+        .contact-form input, .contact-form textarea {
+            width: 100%;
+            padding: 1em;
+            margin-bottom: 1em;
+            border: 2px solid #6759ff;
+            border-radius: 5px;
+            font-family: 'Poppins', sans-serif;
+        }
+        .contact-form input:focus, .contact-form textarea:focus {
+            border-color: #6759ff;
+        }
+        .contact-form button {
+            padding: 1em 2em;
+            background-color: #6759ff;
+            color: #ffffff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-family: 'Poppins', sans-serif;
+        }
+        .contact-form button:hover {
+            background-color: #4a46c6;
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <h1 class="logo"><a href="index.html">Library Management</a></h1>
+        <ul class="main-nav">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="https://jagadeeshpj.netlify.app/" target="_blank">About(Me)</a></li>
+            <li><a href="index.html#Books">Books</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </header>
+
+    <div class="contact-container">
+        <h2>Contact Us</h2>
+        <div class="contact-form">
+            <form action="#" method="post">
+                <input type="text" name="name" placeholder="Your Name" required />
+                <input type="email" name="email" placeholder="Your Email" required />
+                <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <div class="row">
+                <a href="https://github.com/jagadeeshpj" target="_blank"><i class="fa fa-github"></i></a>
+                <a href="https://www.instagram.com/jagadeesh2001/" target="_blank"><i class="fa fa-instagram"></i></a>
+                <a href="#"><i class="fa fa-youtube"></i></a>
+                <a href="#"><i class="fa fa-twitter"></i></a>
+            </div>
+
+            <div class="row">
+                <ul>
+                    <li><a href="#">Contact us</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+
+            <div class="row">
+                DEVREV Library Management || Copyright © 2022 - All rights reserved || Designed By: ASHHAR
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
